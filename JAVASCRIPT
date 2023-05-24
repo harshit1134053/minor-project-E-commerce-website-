@@ -1,0 +1,10 @@
+// Fetch featured products from the server and populate the products section
+
+
+fetch('api/products/featured')
+    .then(response => response.json())
+    .then(products => {
+        const productsSection = document.getElementById('products');
+        products.forEach(product => {
+            const productCard = createProductCard(product);
+            products
