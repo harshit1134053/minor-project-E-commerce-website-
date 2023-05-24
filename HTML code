@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My E-commerce Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My E-commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <!-- Product cards or listings -->
+        </section>
+
+        <section id="cart">
+            <h2>Cart</h2>
+            <!-- Cart items and checkout -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My E-commerce Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
